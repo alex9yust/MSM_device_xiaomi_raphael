@@ -139,7 +139,7 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     $(DEVICE_PATH)/sepolicy/private \
-include device/qcom/sepolicy_vndr/SEPolicy.mk
+include device/qcom/sepolicy/SEPolicy.mk
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
